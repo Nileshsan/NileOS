@@ -1,0 +1,28 @@
+/*
+  The following @tailwind directives require Tailwind CSS and PostCSS setup.
+  Make sure your project is configured to use Tailwind CSS.
+*/
+/* 
+  The following @tailwind directives require Tailwind CSS and PostCSS setup.
+  If you see "Unknown at rule @tailwind", make sure your build tool is configured to use PostCSS with Tailwind.
+  If not using Tailwind, you can remove these lines.
+*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
